@@ -1,0 +1,704 @@
+html, body{
+    font-family: "Sanchez", serif;
+    background-color: #f1f4f7 ;
+    background-position: center 120px;
+	margin: 0;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Header Section */
+header{
+	background: #092746;
+    height: 100px;
+}
+
+.container{
+	max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo-section{
+	width: 20%;
+	display: inline-block;
+}
+
+.logo-section img{
+    width: 100%;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+
+/* navigation style */
+
+nav{
+    overflow: hidden;
+	float: right;
+	margin-top: 40px;
+    margin-right: 56px;
+}
+
+nav a{ 
+    font-style: normal;
+    font-size: 18px;
+	color: white;
+    padding: 15px 4px;
+    margin-top: -102px;
+    margin-right: 42px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover, a:active {
+    color: #aece61;
+}
+
+ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {display: inline-block;}
+
+ul li:hover ul {display: block;}
+
+ul li ul {
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 0px;
+    padding: 26px 0px 10px 0px;
+    width: 150px;
+    display: none;
+    color: white;
+}
+
+ul li ul li { 
+    background:  #a2ce3c;
+    display: block;
+}
+
+ul li ul li a {
+    display: inline-block;
+}
+
+ul li ul li:hover {
+    background: #d7f88a;
+}
+
+/* banner section */
+
+.banner-section .banner-slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 40s infinite;
+    position: relative;
+}
+
+.banner-content{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.banner-principal{
+    left: 16%;
+    top: 11%;
+    transform: translate(-50, -50%);
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.banner-principal h1{
+    color:  #99d803;
+    font-size: 80px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 3px 1px#092746;
+    position: relative;
+}
+
+.banner-principal h5{
+    color: #99d803;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 3px 1px #092746;
+    position: relative;
+}
+
+@keyframes slide{
+    0%{
+        background-image: url(../images/pic.jpeg);
+    }
+    20%{
+        background-image: url(../images/pic1.jpeg);
+    }
+    20.01%{
+        background-image: url(../images/picccc.jpeg);
+    }
+    40%{
+        background-image: url(../images/pic8.jpeg);
+    }
+    40.01%{
+        background-image: url(../images/pic.jpeg);
+    }
+    60%{
+        background-image: url(../images/pic1.jpeg);
+    }
+    60.01%{
+        background-image: url(../images/pic6.jpeg);
+    }
+    80%{
+        background-image: url(../images/pic1.jpeg);
+    }
+    80.01%{
+        background-image: url(../images/pic8.jpeg);
+    }
+    100%{
+        background-image: url(../images/picccc.jpeg);
+    }
+}
+
+.button_slide_slide_right{
+    background-color: #a2ce3c;
+    font-size: 20px;
+    margin-right: 11px;
+    color: white;
+    border: 1px solid #809d98;
+    margin-top: 25px;
+    padding: 11px 19px;
+    border-radius: 34px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: ease-out 0.3s;
+    -moz-transition: ease-out 0.3s;
+    transition: ease-out 0.3s;
+}
+.button_slide_slide_right:hover{
+    background: linear-gradient(to left, #134477 50%, #aece61 50%) no-repeat scroll right bottom / 210% 100% #134477 !important;
+}
+.outer{
+    width:364px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+
+
+/* search */
+
+.tp-form-shortcode-wrap {
+    color: #ffffff;
+    background-color: #062e57;
+    position: relative;
+    padding-left: 15rem;
+    padding-bottom: 30px;
+}
+
+.tp-form-shortcode-wrap .tp-form {
+    padding: 3.6rem 2.3rem 28px 0px;
+    margin-left: 168px;
+}
+
+.tp-form-shortcode-wrap .tp-form-header {
+    background-color: #092746;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 19rem;
+    padding-right: 3.2rem;
+    box-sizing: border-box;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    color: #ffffff;
+}
+
+.tp-form-shortcode-wrap .tp-form-header h6 {
+    margin: 0 !important;
+    font-size: 2.25rem;
+    line-height: 1;
+    font-family: "Sanchez",serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4706em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.tp-form-shortcode-wrap .tp-form-header h4 {
+    color: #aece61;
+    margin: 0;
+    font-size: 3.9rem;
+    line-height: 1;
+    font-family: "Sanchez",serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3043em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.tp-form-shortcode-wrap .tp-form-header:after {
+    color: #092746;
+    content: '';
+    border: 13px solid transparent;
+    border-left: 13px solid;
+    position: absolute;
+    right: -24px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+}
+
+.tp-form .input {
+    width: 25%;
+    border: none;
+    color: white;
+    font-weight: 300;
+    font-family: "Titillium Web",sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2em;
+    text-decoration: none;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+input[type="text"] {
+    background-color: #183e64;
+    outline: none;
+    resize: none;
+    padding: 1.1em 1.4em;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    color: white;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.select_container .choose{
+    background-color: #183e64;
+    outline: none;
+    resize: none;
+    padding: 1.1em 3.4em;
+    margin-right: 7px;
+    margin-left: 7px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.tp-form .tp-form-button {
+    display: inline-block;
+    vertical-align: center;
+    background-color: #a2ce3c;
+    font-size: 20px;
+    margin-right: 7px;
+    margin-left: 7px;
+    color: white;
+    border: 1px solid transparent;
+    margin-top: 1px;
+    padding: 10px 16px;
+    border-radius: 34px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: ease-out 0.3s;
+    -moz-transition: ease-out 0.3s;
+    transition: ease-out 0.3s;
+    position: absolute;
+}
+
+.tp-form .tp-form-button:hover{
+    background: linear-gradient(to left, #134477 50%, #aece61 50%) no-repeat scroll right bottom / 210% 100% #134477 !important;
+}
+
+
+/* About Section */
+
+section.about-section {
+    padding: 7px 0 208px;
+    border-bottom: 1px solid #d2cfcf;
+    position: relative;
+}
+
+section.another .text-title h6{
+    color: #9f9fb9;
+    font-family: "Sanchez", sans-serif;
+    font-size: 1.063rem;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+section.another .text-title h2{
+    font-size: 4rem;
+    position: relative;
+    margin-top: 0.4em;
+    letter-spacing: normal;
+    line-height: 1.2em;
+    margin: 0;
+    text-decoration: none;
+    text-transform: none;
+    color: #134477;
+    position: relative;
+}
+
+.accent_color{
+    color: #aece61;
+}
+
+section.aboutus-section{
+    background-image: url(../images/bai.jpeg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+    background-position: center;
+    margin-left: 120px;
+	width: 83%;
+    height: 100%;
+    position: relative;
+}
+
+.text-title{
+    margin-bottom: 5.5rem !important;
+    margin-left: 111px;
+}
+
+.text{
+    position: relative;
+}
+
+
+.paragraph{
+    background-color: white;
+    right: 218px;
+    top: -35px;
+    float: right;
+    margin: 4.3rem 330px;
+    padding: 2rem 2rem 3rem 2rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.paragraph h5{
+    font-size:2.5rem;
+    color: #aece61; 
+    position: relative;
+}
+
+.accent_color2{
+    color:#134477;
+}
+
+.paragraph p{
+    color: #6a6ea8; 
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+}
+
+section.aboutus-section button{
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: "Sanchez", serif;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin-left: 430px;
+    margin-top: 1px;
+    background-color: #a2ce3c;
+    border: 1px solid transparent;
+    padding: 10px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    -webkit-transition: ease-out 0.3s;
+    -moz-transition: ease-out 0.3s;
+    transition: ease-out 0.3s;
+    position: relative;
+}
+
+section.aboutus-section button:hover{
+	background: linear-gradient(to left, #134477 50%, #aece61 50%) no-repeat scroll right bottom / 210% 100% #134477 !important;
+}
+
+/*slider*/
+
+.swiper-container {
+    background-color: #f1f4f7;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+.swiper-container h2{
+    text-align: center;
+    font-size: 4rem;
+    color: #134477;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 450px;
+    background: #aece61; 
+}
+.swiper-slide .imgBx{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.swiper-slide .imgBx img{
+    width: 90%;
+    margin: 15px;
+}
+.swiper-slide .details{
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.swiper-slide .details h5{
+    font-family: "Titillium Web",sans-serif;
+    color: #134477;
+    margin-bottom: 5px;
+    margin-top: 1px;
+    padding: 0;
+    text-align: center;
+}
+
+.swiper-slide .details h3{
+    font-family: "Titillium Web",sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.button_slide_slide_right1{
+    background-color: #98c926;
+    font-size: 14px;
+    color: white;
+    margin: 18px 0px 0px 61px;
+    border: 1px solid #809d98;
+    padding: 11px 30px;
+    border-radius: 34px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: ease-out 0.3s;
+    -moz-transition: ease-out 0.3s;
+    transition: ease-out 0.3s;
+}
+
+.button_slide_slide_right1:hover{
+    background: linear-gradient(to left, #134477 50%, #aece61 50%) no-repeat scroll right bottom / 210% 100% #134477 !important;
+}
+
+/*CTA Section*/
+section.cta-section{
+    background-color:  #092746;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+    background-position: center;
+    font-size: 20px;
+	text-align: center;
+    padding: 125px 0 125px 0;
+    width: 100%;
+    height: 48%;
+}
+
+.parag{
+    background-color: #aece61;
+    top: -72px;
+    margin: 10px 200px 10px 200px;
+    padding: 25px 25px 32px 27px;
+    /*margin: -3rem 293px;
+    padding: 2rem 2rem 3rem 2rem;*/
+    box-sizing: border-box;
+    position: relative;
+}
+
+section.cta-section button{
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: "Sanchez", serif;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin-left: 7px;
+    margin-top: 2px;
+    background-color: #9eca36;
+    border: 1px solid transparent;
+    padding: 10px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    -webkit-transition: ease-out 0.3s;
+    -moz-transition: ease-out 0.3s;
+    transition: ease-out 0.3s;
+}
+
+section.cta-section button:hover{
+	background: linear-gradient(to left, #134477 50%, #aece61 50%) no-repeat scroll right bottom / 210% 100% #134477 !important;
+}
+
+
+/* Service section */
+section.anotherr .text-title h2{
+    font-size: 64px;
+    position: relative;
+    margin-bottom: 25px;
+    letter-spacing: normal;
+    line-height: 1.2em;
+    text-decoration: none;
+    text-transform: none;
+    color:#aece61;
+}
+
+section.anotherr .accent_color{
+    color: #134477;
+}
+
+section.service-section{
+    background-image: url(../images/wow.jpeg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+    background-position: center;
+    position: relative;
+    margin-left: 120px;
+	width: 83%;
+    height: 100%;
+    margin-bottom: 79px;
+}
+
+.section3-content{
+    background-color: white;
+    left: 180px;
+    top: 87px;
+    float: right;
+    margin: -1.60rem 180px 0px 400px;
+    padding: 2rem 2rem 3rem 2rem;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 20px;
+	text-align: justify;
+}
+
+.accent_color2{
+    color:#134477;
+}
+
+.paragraph p{
+    color: #6a6ea8; 
+    text-align: justify;
+    display: inline-block;
+}
+
+.fa-user-friends{
+    color: #134477;
+    font-size: 50px;
+}
+.fa-chalkboard-teacher{
+    color: #134477;
+    font-size: 50px;
+}
+.fa-laptop{
+    color: #134477;
+    font-size: 50px;
+}
+.fa-user-friends:hover{
+	color: #aece61;
+}
+.fa-chalkboard-teacher:hover{
+	color: #aece61;
+}
+.fa-laptop:hover{
+    color: #aece61;
+}
+
+
+/*footer*/
+footer {
+    font-family: "Sanchez", serif;
+    padding: 17px 0 252px 0;
+    height: 25%;
+    background: #092746;
+    color: #e8e8e8;
+    position: relative;
+}
+
+.footer-section img{
+    width: 235px;
+    margin-left: 172px;
+    padding: 137px 0 0 22px;
+}
+.contact{
+    text-align: center;
+    margin-top: -105px;
+    font-size: 13px;
+    margin-left: 460px;
+}
+.footer-section h5{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #a8cc54;
+}
+.social{
+    margin-top: -94px;
+    margin-left: 234px;
+    font-size: 22px;
+    column-span: 23px;
+    letter-spacing: 9px;
+}
+.social i{
+    color: whitesmoke;
+}
+
+ul li{
+    list-style-type: none;
+    padding-bottom: 12px;
+    display: block;
+    font-size: 14px;
+}
+.footer-section ul li a {
+    color: whitesmoke;
+}
+.social i:hover{
+    color: #aece61;
+}
